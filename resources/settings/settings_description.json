@@ -174,7 +174,7 @@
         "value": "skipintro",
         "display_name": "Skip Intro",
         "help": "Enables a built-in skip intro plugin based off of jumoog's Intro-Skipper plugin (https://github.com/jumoog/intro-skipper).",
-        "default": false
+        "default": true
       }
     ]
   },
@@ -203,7 +203,7 @@
             "platforms": [ "osx" ]
           },
           {
-            "value": "2.0"
+            "value": "auto"
           }
         ],
         "possible_values": [
@@ -316,13 +316,13 @@
       {
         "value": "prefer_transcode_to_h265",
         "display_name": "Prefer Transcode to H.265",
-        "default": false
+        "default": true
       },
       {
         "value": "allow_transcode_to_hevc",
         "display_name": "Allow Transcode to HEVC",
         "help": "If set, it allows transcoding to \"HEVC\" in the video profile. The default is false.\n\nThis is mostly added as a workaround for Dolby Vision content direct playing when it shouldn't.",
-        "default": false
+        "default": true
       },
       {
         "value": "force_transcode_hevc",
@@ -415,7 +415,7 @@
         "value": "cache",
         "display_name": "Cache Size",
         "help": "Controls cache size in MB for video streaming. The default is 75 MB",
-        "default": 75,
+        "default": 500,
         "possible_values": [
           [ 10, "Tiny (10 MB)" ],
           [ 75, "Default (75 MB)" ],
