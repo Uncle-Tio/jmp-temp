@@ -96,11 +96,11 @@ const languages = [
   {
     "lang": "en-us",
     "HeaderConnectToServer": "Connect to Server",
-    "LabelServerHost": "Host:",
-    "LabelServerHostHelp": "192.168.1.100:8096 or https://myserver.com",
+    "LabelServerHost": "Enter the address provided by the admin:",
+    "LabelServerHostHelp": "If this is not the first time you are connecting, the server may be having problems or undergoing maintenance. \nTry again or contact the admin.",
     "Connect": "Connect",
     "HeaderConnectionFailure": "Connection Failure",
-    "MessageUnableToConnectToServer": "We're unable to connect to the selected server right now. Please ensure it is running and try again.",
+    "MessageUnableToConnectToServer": "Unable to connect to the selected server. \Please contact the admin and try again.",
     "ButtonGotIt": "Got It"
   },
   {
@@ -365,32 +365,32 @@ const languages = [
   },
   {
     "lang": "pt-br",
-    "HeaderConnectToServer": "Conectar ao Servidor",
-    "LabelServerHost": "Servidor:",
-    "LabelServerHostHelp": "192.168.1.100:8096 ou https://meuservidor.com",
+    "HeaderConnectToServer": "Conecte ao Servidor",
+    "LabelServerHost": "Digite o endereço fornecido pelo adminstrador:",
+    "LabelServerHostHelp": "Se não for a primeira vez que está se conectando, o servidor pode estar com problemas ou em manutenção. \nTente novamente ou contate o admin.",
     "Connect": "Conectar",
     "HeaderConnectionFailure": "Falha na Conexão",
-    "MessageUnableToConnectToServer": "Não foi possível conectar ao servidor selecionado. Por favor, verifique se está sendo executado e tente novamente.",
-    "ButtonGotIt": "Feito"
+    "MessageUnableToConnectToServer": "Não foi possível conectar ao servidor selecionado. \nPor favor, contate o admin e tente novamente.",
+    "ButtonGotIt": "Entendido"
   },
   {
     "lang": "pt",
-    "HeaderConnectToServer": "Ligar ao Servidor",
-    "LabelServerHost": "Servidor:",
-    "LabelServerHostHelp": "192.168.1.100:8096 ou https://omeudominio.com",
-    "Connect": "Ligar",
-    "HeaderConnectionFailure": "Falha de Ligação",
-    "MessageUnableToConnectToServer": "Não foi possível estabelecer ligação ao servidor. Por favor, certifique-se que o servidor está a correr e tente de novo.",
+    "HeaderConnectToServer": "Conecte ao Servidor",
+    "LabelServerHost": "Digite o endereço fornecido pelo adminstrador:",
+    "LabelServerHostHelp": "Se não for a primeira vez que está se conectando, o servidor pode estar com problemas ou em manutenção. \nTente novamente ou contate o admin.",
+    "Connect": "Conectar",
+    "HeaderConnectionFailure": "Falha na Conexão",
+    "MessageUnableToConnectToServer": "Não foi possível conectar ao servidor selecionado. \nPor favor, contate o admin e tente novamente.",
     "ButtonGotIt": "Entendido"
   },
   {
     "lang": "pt-pt",
-    "HeaderConnectToServer": "Ligar ao Servidor",
-    "LabelServerHost": "Servidor:",
-    "LabelServerHostHelp": "192.168.1.100:8096 ou https://omeudominio.com",
-    "Connect": "Ligar",
-    "HeaderConnectionFailure": "Falha de Ligação",
-    "MessageUnableToConnectToServer": "Não foi possível estabelecer ligação ao servidor. Por favor, certifique-se de que o servidor está a correr e tente de novo.",
+    "HeaderConnectToServer": "Conecte ao Servidor",
+    "LabelServerHost": "Digite o endereço fornecido pelo adminstrador:",
+    "LabelServerHostHelp": "Se não for a primeira vez que está se conectando, o servidor pode estar com problemas ou em manutenção. \nTente novamente ou contate o admin.",
+    "Connect": "Conectar",
+    "HeaderConnectionFailure": "Falha na Conexão",
+    "MessageUnableToConnectToServer": "Não foi possível conectar ao servidor selecionado. \nPor favor, contate o admin e tente novamente.",
     "ButtonGotIt": "Entendido"
   },
   {
