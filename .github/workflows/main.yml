@@ -23,7 +23,7 @@ jobs:
         curl -L https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-win.zip > ninja.zip
         unzip ninja.zip
         mv ninja.exe build/
-        curl -L https://github.com/Uncle-Tio/jmp-uncle-setup/releases/download/v1.11.1/patch-mpv-dev-x86_64-20240414-git-6a8b130.7z > mpv.7z
+        curl -L https://sourceforge.net/projects/mpv-player-windows/files/libmpv/mpv-dev-x86_64-20240414-git-6a8b130.7z/download > mpv.7z
         7z x mpv.7z
         mkdir mpv
         mv include mpv
